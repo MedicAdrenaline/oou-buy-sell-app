@@ -5,7 +5,7 @@ const config: CapacitorConfig = {
   appName: 'OOU Buy & Sell',
   webDir: 'www',
   server: {
-    url: 'https://adrena-oou-buy-sell.onrender.com',
+    url: 'https://adrena-oou-buy-sell-jekf.onrender.com',
     cleartext: false,
     androidScheme: 'https',
   },
