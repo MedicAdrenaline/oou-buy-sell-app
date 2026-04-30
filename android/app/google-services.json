@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "110371750314",
+    "project_id": "oou-buy-sell-7e639",
+    "storage_bucket": "oou-buy-sell-7e639.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110371750314:android:edc762fe0c0a6325212bd3",
+        "android_client_info": {
+          "package_name": "com.oou.buysell"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaKecIOXRpNO_l7N30_5sOT1dvLaOwkj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
