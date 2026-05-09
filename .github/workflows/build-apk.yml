@@ -41,8 +41,8 @@ jobs:
         run: |
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > android/app/ooubuy-release.keystore
 
-      - name: Build Release APK
-        run: cd android && ./gradlew assembleRelease
+      - name: Build Release APK + AAB
+        run: cd android && ./gradlew assembleRelease bundleRelease
         env:
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
@@ -53,3 +53,9 @@ jobs:
         with:
           name: oou-buy-sell-release
           path: android/app/build/outputs/apk/release/app-release.apk
+
+      - name: Upload AAB
+        uses: actions/upload-artifact@v4
+        with:
+          name: oou-buy-sell-bundle
+          path: android/app/build/outputs/bundle/release/app-release.aab
