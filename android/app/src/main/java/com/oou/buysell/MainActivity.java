@@ -17,7 +17,7 @@ public class MainActivity extends BridgeActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel channel = new NotificationChannel(
                 "default",
-                "OOU Buy & Sell Notifications",
+                "NEXRA Notifications",
                 NotificationManager.IMPORTANCE_HIGH
             );
             channel.setDescription("Order updates, new listings and alerts");
