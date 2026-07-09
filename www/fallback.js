@@ -1,6 +1,6 @@
 (function() {
-    const PRIMARY = 'https://adrena-oou-buy-sell-jekf.onrender.com';
-    const FALLBACK = 'https://adrena-oou-buy-sell.onrender.com';
+    const PRIMARY = 'https://campus-nexra.onrender.com';
+    const FALLBACK = 'https://adrena-oou-buy-sell-jekf.onrender.com';
 
     fetch(PRIMARY, { method: 'HEAD', mode: 'no-cors' })
         .then(() => {

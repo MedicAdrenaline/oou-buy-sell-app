@@ -2,10 +2,10 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.oou.buysell',
-  appName: 'OOU Buy & Sell',
+  appName: 'NEXRA',
   webDir: 'www',
   server: {
-    url: 'https://adrena-oou-buy-sell-jekf.onrender.com',
+    url: 'https://campus-nexra.onrender.com',
     cleartext: false,
     androidScheme: 'https',
   },
@@ -13,14 +13,14 @@ const config: CapacitorConfig = {
     SplashScreen: {
       launchShowDuration: 2000,
       launchAutoHide: true,
-      backgroundColor: '#f5f3ff',
+      backgroundColor: '#1a1a1a',
       showSpinner: false,
       splashFullScreen: true,
       splashImmersive: true,
     },
     StatusBar: {
       style: 'DARK',
-      backgroundColor: '#4f35f3',
+      backgroundColor: '#ff6b00',
     },
   },
 };

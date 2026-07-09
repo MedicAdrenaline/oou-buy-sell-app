@@ -1,7 +1,7 @@
 {
-  "name": "ooubuy-sell",
+  "name": "nexra",
   "version": "1.0.0",
-  "description": "OOU Buy & Sell Campus Marketplace App",
+  "description": "NEXRA - Buy. Sell. Discover.",
   "scripts": {
     "cap:sync": "npx cap sync",
     "cap:open:android": "npx cap open android"
